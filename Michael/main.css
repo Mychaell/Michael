@@ -1,0 +1,194 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", Sans-Serif;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+body {
+  
+  font-family: "Segoe UI", sans-serif;
+  width: 100%;
+  margin: 0;
+  background-color: #F0A07C;
+  
+}
+
+#container {
+  margin: 0px;
+  width: 100%;
+  position: relative;
+  align-items: center;
+}
+
+#header {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  
+}
+
+#header img {
+  border-radius: 50%;
+  width: 80px;
+  padding-top: 5px;
+}
+
+#info {
+  background-color: #4A274F;
+  color: #F0A07C;
+  align-items: center;
+  text-align: center;
+  margin-top: 4px;
+  padding: 15px;
+  width: 100%;
+}
+
+h2 {
+  color: #8BD8BD;
+}
+
+.table {
+  width: 100%;
+  border-bottom-spacing: 1rem;
+  padding: 8px;
+  border-radius: 0.8rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+input[type="text"],
+[type="number"],
+[type="email"],
+select {
+ background: #edf2f7;
+}
+
+.left-table {
+  text-align: left;
+  background-color: white;
+  padding-top: 5px;
+  padding-right: 35px;
+  padding-bottom: 5px;
+  
+}
+
+.right-table {
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #F0A07C;
+  color: #4A274F;
+  padding-right: 1px;
+}
+
+td {
+  margin-bottom: 2px;
+}
+
+#social {
+  background-color: #358597;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+  margin-top: 5px;
+}
+
+#contact {
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  color: #F0A07C;
+}
+
+.fields {
+  padding: 5px;
+  min-width: 250px;
+  max-width: 700px;
+  height: 25px;
+  border-radius: 0.5rem;
+  border: none;
+  
+}
+
+textarea {
+  max-width: 700px;
+  min-width: 250px;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 5px;
+  background: #edf2f7;
+}
+
+#button {
+  padding: 10px 0px 10px 0px;
+  border: none;
+  background: ;
+  min-width: 220px;
+  max-width: 600px;
+  background-color: #F0A07C;
+  border-radius: 0.7rem;
+}
+
+#table2 {
+  background-color: white;
+  padding: 8px;
+  border-radius: 0.9rem;
+  width: 100%;
+}
+
+#git1 {
+  font-weight: 700;
+  text-align: center;
+}
+
+#git2 {
+  font-weight: 700;
+  background-color: black;
+  color: white;
+}
+
+#tweet1 {
+  color: #00ACEE;
+  font-weight: 700;
+  text-align: center;
+}
+
+#tweet2 {
+  background-color: #00ACEE;
+  color: white;
+  font-weight: 700;
+}
+
+#wame1 {
+  color: #25D366;
+  font-weight: 700;
+  text-align: center;
+}
+
+#wame2 {
+  background-color: #25D366;
+  color: white;
+  font-weight: 700;
+  
+}
+
+#table2 tr {
+  padding: 8px;
+  border-radius: 0.8rem;
+}
+
+#contact {
+  align-items: center;
+}
